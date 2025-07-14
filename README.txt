@@ -14,7 +14,6 @@ It includes simple, professional presentations of my completed work using screen
 Each project section includes key visuals, descriptions, and links for viewing source code or project details.
 
 📧 Contact: qadertoufeeq@gmail.com  
-🌐 GitHub: [https://github.com/ToufeeqQader]
 
 ---
 
