@@ -1,172 +1,244 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Toufeeq Qader Portfolio</title>
+		<title>Toufeeq Qader | Data Science Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<style>
+			/* Smooth Hover Effects for Project Cards */
+			.post.featured, .posts article {
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
+				border-radius: 8px;
+			}
+			.post.featured:hover, .posts article:hover {
+				transform: translateY(-8px);
+				box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+			}
+			
+			/* Skills Tags Styling */
+			.skills-container {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 12px;
+				justify-content: center;
+				margin: 2rem 0;
+			}
+			.skill-tag {
+				background: #18bfef;
+				color: #ffffff !important;
+				padding: 8px 20px;
+				border-radius: 30px;
+				font-weight: bold;
+				font-size: 0.85rem;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+			}
+
+			/* About Section Styling */
+			.about-section {
+				text-align: center;
+				padding: 4rem 2rem 2rem 2rem;
+				border-bottom: solid 2px #eeeeee;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Toufeeq Qader Portfolio<br />
-						</h1>
-						<p>"Aspiring Data Analyst | Data Science Student | Passionate About AI & Analytics | Skilled in SQL,MS Excell,C++,PowerBI <a href=https://www.linkedin.com/in/toufeeq-qader-52a380350/>@Toufeeq Qader
+				<div id="intro">
+						<h1>Toufeeq Qader<br />
+						Portfolio</h1>
+						<p>Aspiring Data Analyst & Data Science Student | Passionate About AI & Analytics<br />
+						Skilled in: <span id="typewriter" style="font-weight: bold; color: #18bfef;"></span><br />
+						Connect with me on <a href="https://www.linkedin.com/in/toufeeq-qader-52a380350/" target="_blank">LinkedIn</a></p>
 						
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
 
-				<!-- Header -->
-					<header id="header">
+				<header id="header">
 						<a href="index.html" class="logo">Toufeeq Qader</a>
 					</header>
 
-				<!-- Nav -->
-					<nav id="nav">
+				<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							
+							<li class="active"><a href="index.html">Portfolio</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/toufeeq-qader-52a380350/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-									<li><a href="https://github.com/ToufeeqQader" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/toufeeq-qader-52a380350/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/ToufeeqQader" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
-				<!-- Main -->
-					<div id="main">
+				<div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
+						<section class="about-section">
+							<h2>About Me</h2>
+							<p>I am a dedicated Data Science student bridging the gap between raw data and actionable insights. I specialize in building robust software solutions, optimizing data pipelines, and creating compelling visualizations to drive decision-making.</p>
+							<div class="skills-container">
+								<span class="skill-tag">Python</span>
+								<span class="skill-tag">SQL & MySQL</span>
+								<span class="skill-tag">MS Excel</span>
+								<span class="skill-tag">PowerBI</span>
+								<span class="skill-tag">C++ & C#</span>
+								<span class="skill-tag">Data Visualization</span>
+							</div>
+						</section>
+
+						<article class="post featured">
 								<header class="major">
-									
-									<h2><a href="https://github.com/ToufeeqQader/Excel-Dashboard-Bike-Buyers">Excel Dashboard Bike Buyers Data Project<br />
-									</a></h2>
-									<p>The project included data cleaning, organizing with PivotTables, and designing visuals using charts and slicers.</p>
+									<span class="date">Featured Project</span>
+									<h2><a href="https://github.com/ToufeeqQader/Excel-Dashboard-Bike-Buyers" target="_blank">Excel Dashboard:<br />
+									Bike Buyers Data</a></h2>
+									<p>A comprehensive end-to-end data analysis project. Included intensive data cleaning, structuring with PivotTables, and designing interactive dynamic visuals using advanced charts, KPIs, and slicers.</p>
 								</header>
-								<a href="https://github.com/ToufeeqQader/Excel-Dashboard-Bike-Buyers" class="image main"><img src="images/Screenshot 2025-07-14 201734.png" alt="" /></a>
+								<a href="https://github.com/ToufeeqQader/Excel-Dashboard-Bike-Buyers" class="image main" target="_blank"><img src="images/Screenshot 2025-07-14 201734.png" alt="Excel Dashboard Preview" /></a>
 								<ul class="actions special">
-									<li><a href="https://github.com/ToufeeqQader/Excel-Dashboard-Bike-Buyers" class="button large">View project</a></li>
+									<li><a href="https://github.com/ToufeeqQader/Excel-Dashboard-Bike-Buyers" class="button large" target="_blank">View Project</a></li>
 								</ul>
 							</article>
 
-						<!-- Posts -->
-							<section class="posts">
+						<section class="posts">
 								<article>
 									<header>
-										<h2><a href="https://github.com/ToufeeqQader/School-Management-System">School-Management-System<br />
-										</a></h2>
+										<span class="date">Software Development</span>
+										<h2><a href="https://github.com/ToufeeqQader/School-Management-System" target="_blank">School Management<br />
+										System</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/Screenshot 2025-07-14 202347_cleanup.png" alt="" /></a>
-									<p>The system is built using C# with WinForms as the front-end interface and MySQL for the back-end database.</p>
+									<a href="https://github.com/ToufeeqQader/School-Management-System" class="image fit" target="_blank"><img src="images/Screenshot 2025-07-14 202347_cleanup.png" alt="School Management System" /></a>
+									<p>A robust desktop application built using C# with WinForms as the front-end graphical interface and MySQL for secure back-end database management.</p>
 									<ul class="actions special">
-										<li><a href=https://github.com/ToufeeqQader/School-Management-System class="button">view project</a></li>
+										<li><a href="https://github.com/ToufeeqQader/School-Management-System" class="button" target="_blank">View Project</a></li>
 									</ul>
 								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/ToufeeqQader/Space-Shooter-Game">Space-Shooter-Game<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/ToufeeqQader/Space-Shooter-Game" class="image fit"><img src="images/Screenshot 2025-06-13 152511.png" alt="" /></a>
-									<p>A fully-featured 2D arcade space shooter game built using C++ and SFML, featuring levels, enemy waves, power-ups, and high score management.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/ToufeeqQader/Space-Shooter-Game" class="button">view project</a></li>
-									</ul>
-								</article>
-
-								<article>
-<header>
-<h2><a href="https://github.com/ToufeeqQader/Job-Market-Analysis">Job-Market-Analysis</a></h2>
-</header>
-
-<a href="https://github.com/ToufeeqQader/Job-Market-Analysis" class="image fit">
-<img src="images/job-market-analysis.png" alt="" />
-</a>
-
-<p>A data analysis project that explores trends in the job market using data visualization and analytical techniques.</p>
-
-<ul class="actions special">
-<li><a href="https://github.com/ToufeeqQader/Job-Market-Analysis" class="button">view project</a></li>
-</ul>
-</article>
-
-
-<article>
-<header>
-<h2><a href="https://github.com/ToufeeqQader/Flight-Route-Optimization-System">Flight-Route-Optimization-System</a></h2>
-</header>
-
-<a href="https://github.com/ToufeeqQader/Flight-Route-Optimization-System" class="image fit">
-<img src="images/flight-route-optimization.png" alt="" />
-</a>
-
-<p>A system that optimizes flight routes using algorithms to determine the most efficient paths between destinations.</p>
-
-<ul class="actions special">
-<li><a href="https://github.com/ToufeeqQader/Flight-Route-Optimization-System" class="button">view project</a></li>
-</ul>
-</article>
 								
-</section>
-									
+								<article>
+									<header>
+										<span class="date">Game Development</span>
+										<h2><a href="https://github.com/ToufeeqQader/Space-Shooter-Game" target="_blank">Space Shooter<br />
+										Game</a></h2>
+									</header>
+									<a href="https://github.com/ToufeeqQader/Space-Shooter-Game" class="image fit" target="_blank"><img src="images/Screenshot 2025-06-13 152511.png" alt="Space Shooter Game" /></a>
+									<p>A fully-featured 2D arcade space shooter game engineered using C++ and SFML. It features progressive levels, complex enemy waves, interactive power-ups, and a persistent high score system.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/ToufeeqQader/Space-Shooter-Game" class="button" target="_blank">View Project</a></li>
+									</ul>
+								</article>
 
-						
-				
+								<article>
+									<header>
+										<span class="date">Data Analysis</span>
+										<h2><a href="https://github.com/ToufeeqQader/Job-Market-Analysis" target="_blank">Job Market<br />
+										Analysis</a></h2>
+									</header>
+									<a href="https://github.com/ToufeeqQader/Job-Market-Analysis" class="image fit" target="_blank"><img src="images/job-market-analysis.png" alt="Job Market Analysis" /></a>
+									<p>An exploratory data analysis project identifying key trends, salary distributions, and high-demand skills in the current job market using modern analytical techniques and visualizations.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/ToufeeqQader/Job-Market-Analysis" class="button" target="_blank">View Project</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">Algorithms</span>
+										<h2><a href="https://github.com/ToufeeqQader/Flight-Route-Optimization-System" target="_blank">Flight Route<br />
+										Optimization</a></h2>
+									</header>
+									<a href="https://github.com/ToufeeqQader/Flight-Route-Optimization-System" class="image fit" target="_blank"><img src="images/flight-route-optimization.png" alt="Flight Route Optimization" /></a>
+									<p>An algorithmic system designed to calculate and optimize flight routes, determining the most fuel and time-efficient paths between global destinations using graph theory.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/ToufeeqQader/Flight-Route-Optimization-System" class="button" target="_blank">View Project</a></li>
+									</ul>
+								</article>
+							</section>
+
+					</div>
+
+				<footer id="footer">
 						<section class="split contact">
 							<section class="alt">
 								<h3>Location</h3>
-								<p>Islamabad <br />
-								</p>
+								<p>Islamabad, Pakistan</p>
 							</section>
 							<section>
 								<h3>Phone</h3>
-								<p><a href="#">03246321087</a></p>
+								<p><a href="tel:+923246321087">0324 632 1087</a></p>
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">qadertoufeeq@gmail.com</a></p>
+								<p><a href="mailto:qadertoufeeq@gmail.com">qadertoufeeq@gmail.com</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
-									
-									<li><a href="https://www.linkedin.com/in/toufeeq-qader-52a380350/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-									<li><a href="https://github.com/ToufeeqQader" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/toufeeq-qader-52a380350/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/ToufeeqQader" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
 						</section>
 					</footer>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+				<div id="copyright">
+						<ul><li>&copy; Toufeeq Qader</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
+			<script>
+				const words = ["SQL", "MS Excel", "C++", "PowerBI", "Python"];
+				let i = 0;
+				let timer;
+
+				function typingEffect() {
+					let word = words[i].split("");
+					var loopTyping = function() {
+						if (word.length > 0) {
+							document.getElementById('typewriter').innerHTML += word.shift();
+						} else {
+							setTimeout(deletingEffect, 2000);
+							return false;
+						}
+						timer = setTimeout(loopTyping, 150);
+					};
+					loopTyping();
+				}
+
+				function deletingEffect() {
+					let word = words[i].split("");
+					var loopDeleting = function() {
+						if (word.length > 0) {
+							word.pop();
+							document.getElementById('typewriter').innerHTML = word.join("");
+						} else {
+							if (words.length > (i + 1)) {
+								i++;
+							} else {
+								i = 0;
+							}
+							setTimeout(typingEffect, 500);
+							return false;
+						}
+						timer = setTimeout(loopDeleting, 100);
+					};
+					loopDeleting();
+				}
+
+				typingEffect();
+			</script>
 
 	</body>
-
 </html>
